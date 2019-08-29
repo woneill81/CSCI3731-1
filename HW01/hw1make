@@ -1,0 +1,7 @@
+all: main
+
+hw1.o: hw1.cc 
+	g++ -c -Wall -Werror hw1.cc
+	
+main: hw1.o
+	g++ -o main hw1.o
