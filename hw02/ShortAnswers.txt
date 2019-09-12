@@ -1,0 +1,11 @@
+1. A const int is an integer that hold a value that can not be changed no matter what after it has been initialized. 
+2. a function declaration defines a function, it contains the arguments and return types. The definition is the contents within the function that contain the algorithm for processing. 
+3. The int 'sum' is not initialized before it is to be incremented. "int sum = 0;"
+4.line 2 needs to be if(n==0), in its current state it is changing the value of n to be 0, not checking the value. 
+5. You cant pass a value into a nullpointer. to fix you would need to initialize a variable and assign the pointer to the variable instead. 
+6. The * operator dereferences a pointer and returns the value stored at its memory location while the & operator returns a pointer. 
+7. a) a pointer to an int
+b) a constant int
+c) a pointer to a constant int
+d) a constant pointer to an int
+e) a constant pointer to a constant int
