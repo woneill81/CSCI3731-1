@@ -1,0 +1,4 @@
+1. The int temp does not need to be a pointer. 
+2. f((a+2), 4)
+3. You create the array on the stack and when the method goes out of scope so does the array. Creating on the heap would solve this usisng the 'new' keyword
+4. The null terminator is missing from the end of the string. increase array length by one and add string[5] = '\0';
