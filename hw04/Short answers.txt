@@ -1,0 +1,11 @@
+1)  C and C++ both do not have very good support for multi dimensional arrays. If you pass a 2D array into a function you have to specify the exact sizes of whatever it is youre passing. 
+2) The two ways C can handle this problem is to store the entire array into a 1D flat array with an offset number to jump to the next row of the 2D.
+The second way to handle it is the numerical recipes trick. This creates a 1D flat array and a second array of pointers to each of the rows of the 2D. 
+3) My laptop is little endian. This is the method: 
+	int main(int argc, char** argv){
+		int i=123456;
+		unsigned char* bytes = (unsigned char*)(&i);
+		printf("%d %d %d %d\n, bytes[0], bytes[1], bytes[2], bytes[3]);
+	}
+		Output is : 64 226 1 0
+4)

@@ -1,0 +1,12 @@
+1)the end of the class needs a semi colon after the final bracket
+2)the cnstructor needs to begin with "Projectile::"
+	second this->position and this->velocity needs to be used in order to dereference the variables
+	lastly the varibles are supposed to be doubles not ints
+3)a. takes a pointer to an int as an arg and returns a pointer to an int 
+b. takes a pointer to an int as an arg and returns a pointer to a const int
+c. takes a pointer to an int as an arg and returns a constant pointer to a const int
+d. takes a pointer to a const int as an arg and returns a const pointer to a const int
+e. is a constant method that takes a pointer to a const int and returns a const pointer to a const int
+4) c++ string are safer, they are trated as objects that have methods and they can make use of operator overloading
+5)a pointer can access memory locations of varibles but need to be dereferenced in order to use the values. References are automatically dereferenced but they cannot change what they point to once they are initialized
+6)A destructor is used to delete heap data. it is called when a class is deleted and when objects go out of scope
