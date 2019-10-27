@@ -1,0 +1,6 @@
+1) The friend keyword allows for a class to grant an object access to private data
+2) You will end up importing the namespace of all c++ files  with that header, you then cannot use namespaces to avoid name collisions
+3) heap memory managemant is hard because you have to delete the memory but if you have multiple pointers you cant delete an object twice
+4) the conventional way to keep track of large amounts of heap data is to create an object that owns each pointer an is responsible for deleting it accordingly.
+5) The three ways that a class can contain an object is using a pointer, a reference, and an actual object
+6) A forward delaration tells the program that something exists without specifying details on it until later. This is needed to two header files dont call each other back anf forth indefinitely. 
