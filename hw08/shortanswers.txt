@@ -1,0 +1,11 @@
+1) the rule of 5 states that if a class contains one of the following it should contain all 5: 
+	a) destructor
+	b) copy constructor
+	c) copy assignment operator
+	d) move constructor
+	e) move assignment constructor
+2) A copy preserves the original object while a move overwrites it and deletes it
+3) A compiling technique that eliminates or 'omits' the unncessecary copying of objects
+4) Smart pointers are overloaded pointer operators that are classes that contain other pointers
+5) You can prevent someone from copying a class you wrote by using this line of code: 
+	"Thing& operator=(const Thing& thing) = delete;" and overloading the operator

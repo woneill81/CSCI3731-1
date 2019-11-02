@@ -1,7 +1,7 @@
 #include <cstdio>
 #include "writer.h"
 //Write function for Homework 5 modified from Homework 4
-void write(const char* file2, int* array, int width, int height, int numPixels){
+void write(const char* file2, unsigned char* array, int width, int height, int numPixels){
 
 	FILE* fw = fopen(file2 , "wb");
 	int size=height*3*width; //width*height
