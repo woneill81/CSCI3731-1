@@ -28,7 +28,7 @@ void Population::remove(Fish* aFish){
 			this->manyItems--;
 			fishes[i] = fishes[this->manyItems];
 			fishes[this->manyItems] = NULL;
-			std::cout << "Fish " << i << " died" << std::endl;
+			std::cout << "A Fish died" << std::endl;
 		}
 	}
 	

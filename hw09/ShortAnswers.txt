@@ -1,0 +1,6 @@
+1) upcasting if refering to an object as a superclass, downcasting is making an object back into a subclass
+2) mark a method as virtual if a subclass will overwrite the method, virtual slows down code so dont use unless you have to
+3) dynamic cast looks at the type of object and checks if its valid. static casting doesnt check on the object until runtime. static is used for speed.
+4) const casting is useful when a library method is not marked as const but your object is. using const cast allows the object to be manipulated.
+5) passing the banana into the first method will allow the banana to get manipulated but when u pass into the second method the object can not be changed although it is not a const object
+6) in Java every class has a single parent while in C++ any number of parents are allowed. Java uses interfaces to allow for this to be changed but c++ does not need this to work. 

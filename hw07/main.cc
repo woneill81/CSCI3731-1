@@ -1,9 +1,9 @@
-#include "Angle.h"
+#include "angle.h"
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
-#include "Population.h"
-#include "Fish.h"
+#include "population.h"
+#include "fish.h"
 #include <cmath>
 
 double calDistance(const double x,const double y){
