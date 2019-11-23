@@ -1,0 +1,4 @@
+1)All classes in Java only have one superclass and can only call from the object class. In c++ you are allowed to have multiple inheritance
+2) With a template you can build objects with different types of data but have the same class structure 
+3) Some drawbacks to templates include the slow compilation because the compiler creates the methods for each instantiation. you also can not cast a template to another one.
+4) An iterator is a class that takes a current element and allows the user to step into the next element onward
