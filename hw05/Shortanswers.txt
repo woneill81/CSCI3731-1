@@ -1,0 +1,4 @@
+1) libraries are good to use to save time writing code. You use verified existing code and will probably work better than your anyways.
+2) Static libraries link into your executable file which makes the files very large, but its all localized in one place.
+	Shared Object libraries are ones that can be used by several different executables. These are loaded at runtime and can be used endless amounts of times.
+	

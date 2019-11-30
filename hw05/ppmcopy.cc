@@ -11,14 +11,14 @@ int main(int argc, char** argv){
 	int width=0;
 	int height=0;
 	int numPixels=0;	
+	
 	//Read file and put binary into array data
-	int** array = read(fp, header, &width, &height, &numPixels);
+	unsigned char* array = read(fp, header, &width, &height, &numPixels);
 	
 	//Write file with data array as argument
 	write(fw, array, width, height, numPixels);
 	
 	//cleaning up data
-	delete[] *array;
 	delete[] array;
 	array=NULL;
 	
